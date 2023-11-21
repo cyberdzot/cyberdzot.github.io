@@ -130,6 +130,7 @@ body {
 .top {
     border-radius: 10px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.02) -41.9%, rgba(255, 255, 255, 0.02) 260.24%);
+    padding-top: 160px;
 }
 
 .centering {
@@ -224,11 +225,20 @@ body {
     justify-content: center;
     align-items: center;
     gap: 32px;
-    margin-bottom: 160px;
 }
 
 /* FLEX's <------------------- */
 
+.header {
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.02);
+    transition: all 0.3s;
+
+    /* закрепляем меню сверху сайта */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
 
 .header_link {
     color: #fff;
@@ -514,6 +524,11 @@ a:visited {
     /* чтобы цвета соц сетей
     не были тусклыми при наведении */
     opacity: 1.0;
+}
+
+.header:hover {
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
 }
 
 .fa-twitter:hover {
