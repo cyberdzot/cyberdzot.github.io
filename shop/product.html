@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- defaults -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Product</title>
+	<link rel="shortcut icon" type="svg" href="img/logo.svg">
+
+	<!-- fa-icons -->
+	<script src="https://kit.fontawesome.com/e33418f960.js" crossorigin="anonymous"></script>
+
+	<!-- css -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="fix-overflow-x">
+		<header class="header center">
+			<div class="header__left">
+				<a href="index.html">
+					<img src="img/logo.svg" alt="logo" class="header__logo">
+				</a>
+				<i class="fa fa-solid fa-magnifying-glass"></i>
+			</div>
+			<nav class="header__right">
+				<label for="burger"><i class="fa fa-solid fa-bars"></i></label>
+				<input id="burger" type="checkbox">
+				<nav class="burger-nav">
+					<h4 class="burger-nav__head">MENU</h4>
+					<h4 class="burger-nav__heading">MAN</h4>
+					<ul class="burger-nav__link-box">
+						<li><a class="burger-nav__link" href="#">Accessories</a></li>
+						<li><a class="burger-nav__link" href="#">Bags</a></li>
+						<li><a class="burger-nav__link" href="#">Denim</a></li>
+						<li><a class="burger-nav__link" href="#">T-Shirts</a></li>
+					</ul>
+					<h4 class="burger-nav__heading">WOMAN</h4>
+					<ul class="burger-nav__link-box">
+						<li><a class="burger-nav__link" href="#">Accessories</a></li>
+						<li><a class="burger-nav__link" href="#">Jackets & Coats</a></li>
+						<li><a class="burger-nav__link" href="#">Polos</a></li>
+						<li><a class="burger-nav__link" href="#">T-Shirts</a></li>
+						<li><a class="burger-nav__link" href="#">Shirts</a></li>
+					</ul>
+					<h4 class="burger-nav__heading">KIDS</h4>
+					<ul class="burger-nav__link-box">
+						<li><a class="burger-nav__link" href="#">Accessories</a></li>
+						<li><a class="burger-nav__link" href="#">Jackets & Coats</a></li>
+						<li><a class="burger-nav__link" href="#">Polos</a></li>
+						<li><a class="burger-nav__link" href="#">T-Shirts</a></li>
+						<li><a class="burger-nav__link" href="#">Shirts</a></li>
+						<li><a class="burger-nav__link" href="#">Bags</a></li>
+					</ul>
+				</nav>
+				<a href="./registration.html">
+					<i class="fa fa-regular fa-user"></i>
+				</a>
+				<a href="./cart.html">
+					<i class="fa fa-solid fa-cart-shopping header__cart-count"></i>
+				</a>
+			</nav>
+		</header>
+		<nav class="breadcrumbs center">
+			<h2 class="breadcrumbs__title">NEW ARRIVALS</h2>
+			<ul class="breadcrumbs__list">
+				<li class="breadcrumbs__list__link"><a href="index.html">HOME</a></li>
+				<li class="breadcrumbs__list__link"><a href="#">MEN</a></li>
+				<li class="breadcrumbs__list__link"><a href="#">NEW ARRIVALS</a></li>
+			</ul>
+		</nav>
+		<section class="swiper mySwiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="img/slide_1.webp" alt="slide_1">
+				</div>
+				<div class="swiper-slide">
+					<img src="img/slide_2.webp" alt="slide_2">
+				</div>
+				<div class="swiper-slide">
+					<img src="img/slide_1.webp" alt="slide_3">
+				</div>
+			</div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+		</section>
+		<section class="product-info-section center">
+			<div class="product-info">
+				<h3 class="product-info__subtitle">WOMEN COLLECTION</h3>
+				<h2 class="product-info__title">MOSCHINO CHEAP AND CHIC</h2>
+				<p class="product-info__text">Compellingly actualize fully researched processes before proactive
+					outsourcing. Progressively syndicate collaborative architectures before cutting-edge services.
+					Completely visualize parallel core competencies rather than exceptional portals. </p>
+				<p class="product-info__price">$561</p>
+				<div class="product-info__options">
+					<details class="product-info__options__details">
+						<summary class="product-info__options__btn">CHOOSE COLOR <svg width="11" height="6"
+								viewBox="0 0 11 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M5.00214 5.64846C4.83521 5.64879 4.67343 5.59016 4.54488 5.48275L0.258102 1.88021C0.112196 1.75791 0.0204417 1.58217 0.00302325 1.39165C-0.0143952 1.20112 0.0439493 1.01143 0.165221 0.864289C0.286493 0.717149 0.460759 0.624619 0.649682 0.607053C0.838605 0.589487 1.02671 0.648325 1.17262 0.770623L5.00214 3.9985L8.83167 0.885905C8.90475 0.826055 8.98884 0.781361 9.0791 0.754391C9.16937 0.727421 9.26403 0.718707 9.35764 0.72875C9.45126 0.738794 9.54198 0.767396 9.6246 0.812913C9.70722 0.85843 9.7801 0.919965 9.83906 0.993981C9.90449 1.06806 9.95405 1.15498 9.98462 1.24927C10.0152 1.34357 10.0261 1.44321 10.0167 1.54197C10.0073 1.64073 9.97784 1.73646 9.93005 1.82318C9.88227 1.9099 9.81724 1.98573 9.73904 2.04592L5.45225 5.52598C5.32002 5.61641 5.16154 5.65954 5.00214 5.64846V5.64846Z"
+									fill="#6F6E6E" />
+							</svg></summary>
+						<div class="product-info__options__list">
+							<div class="product-info__options__list__div">
+								<input type="checkbox" name="checkbox1" id="checkbox1">
+								<label for="checkbox1">Black</label>
+							</div>
+							<div class="product-info__options__list__div">
+								<input type="checkbox" name="checkbox2" id="checkbox2">
+								<label for="checkbox2">White</label>
+							</div>
+							<div class="product-info__options__list__div">
+								<input type="checkbox" name="checkbox3" id="checkbox3">
+								<label for="checkbox3">Red</label>
+							</div>
+						</div>
+					</details>
+					<details class="product-info__options__details">
+						<summary class="product-info__options__btn">CHOOSE SIZE <svg width="11" height="6"
+								viewBox="0 0 11 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M5.00214 5.64846C4.83521 5.64879 4.67343 5.59016 4.54488 5.48275L0.258102 1.88021C0.112196 1.75791 0.0204417 1.58217 0.00302325 1.39165C-0.0143952 1.20112 0.0439493 1.01143 0.165221 0.864289C0.286493 0.717149 0.460759 0.624619 0.649682 0.607053C0.838605 0.589487 1.02671 0.648325 1.17262 0.770623L5.00214 3.9985L8.83167 0.885905C8.90475 0.826055 8.98884 0.781361 9.0791 0.754391C9.16937 0.727421 9.26403 0.718707 9.35764 0.72875C9.45126 0.738794 9.54198 0.767396 9.6246 0.812913C9.70722 0.85843 9.7801 0.919965 9.83906 0.993981C9.90449 1.06806 9.95405 1.15498 9.98462 1.24927C10.0152 1.34357 10.0261 1.44321 10.0167 1.54197C10.0073 1.64073 9.97784 1.73646 9.93005 1.82318C9.88227 1.9099 9.81724 1.98573 9.73904 2.04592L5.45225 5.52598C5.32002 5.61641 5.16154 5.65954 5.00214 5.64846V5.64846Z"
+									fill="#6F6E6E" />
+							</svg></summary>
+						<div class="product-info__options__list">
+							<div class="product-info__options__list__div">
+								<input type="checkbox" name="checkbox2_1" id="checkbox2_1">
+								<label for="checkbox2_1">XS</label>
+							</div>
+							<div class="product-info__options__list__div">
+								<input type="checkbox" name="checkbox2_2" id="checkbox2_2">
+								<label for="checkbox2_2">S</label>
+							</div>
+							<div class="product-info__options__list__div">
+								<input type="checkbox" name="checkbox2_3" id="checkbox2_3">
+								<label for="checkbox2_3">M</label>
+							</div>
+							<div class="product-info__options__list__div">
+								<input type="checkbox" name="checkbox2_4" id="checkbox2_4">
+								<label for="checkbox2_4">L</label>
+							</div>
+						</div>
+					</details>
+					<details class="product-info__options__details">
+						<summary class="product-info__options__btn">QUANTITY <svg width="11" height="6"
+								viewBox="0 0 11 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M5.00214 5.64846C4.83521 5.64879 4.67343 5.59016 4.54488 5.48275L0.258102 1.88021C0.112196 1.75791 0.0204417 1.58217 0.00302325 1.39165C-0.0143952 1.20112 0.0439493 1.01143 0.165221 0.864289C0.286493 0.717149 0.460759 0.624619 0.649682 0.607053C0.838605 0.589487 1.02671 0.648325 1.17262 0.770623L5.00214 3.9985L8.83167 0.885905C8.90475 0.826055 8.98884 0.781361 9.0791 0.754391C9.16937 0.727421 9.26403 0.718707 9.35764 0.72875C9.45126 0.738794 9.54198 0.767396 9.6246 0.812913C9.70722 0.85843 9.7801 0.919965 9.83906 0.993981C9.90449 1.06806 9.95405 1.15498 9.98462 1.24927C10.0152 1.34357 10.0261 1.44321 10.0167 1.54197C10.0073 1.64073 9.97784 1.73646 9.93005 1.82318C9.88227 1.9099 9.81724 1.98573 9.73904 2.04592L5.45225 5.52598C5.32002 5.61641 5.16154 5.65954 5.00214 5.64846V5.64846Z"
+									fill="#6F6E6E" />
+							</svg></summary>
+					</details>
+				</div>
+				<a href="#" class="product-info__btn">
+					<i class="product-info__btn__svg fa fa-solid fa-cart-shopping"></i> Add to Cart
+				</a>
+			</div>
+		</section>
+		<section class="product center">
+			<div class="product__box">
+				<figure class="product__item">
+					<img class="product__img" src="img/product4.webp" alt="product image">
+					<div class="product__description">
+						<figcaption class="product__heading">
+							<a class="product__heading" href="product.html">ELLERY X M'O CAPSULE</a>
+						</figcaption>
+						<p class="product__text">
+							Known for her sculptural takes on traditional tailoring,
+							Australian arbiter of cool Kym Ellery teams up with Moda Operandi.
+						</p>
+						<p class="product__price">$52.00</p>
+					</div>
+					<a href="#" class="product__add-link">
+						<i class="product__cart fa fa-solid fa-cart-shopping"></i>
+						Add to Cart
+					</a>
+				</figure>
+				<figure class="product__item">
+					<img class="product__img" src="img/product3.webp" alt="product image">
+					<div class="product__description">
+						<figcaption class="product__heading">
+							<a class="product__heading" href="product.html">ELLERY X M'O CAPSULE</a>
+						</figcaption>
+						<p class="product__text">
+							Known for her sculptural takes on traditional tailoring,
+							Australian arbiter of cool Kym Ellery teams up with Moda Operandi.
+						</p>
+						<p class="product__price">$52.00</p>
+					</div>
+					<a href="#" class="product__add-link">
+						<i class="product__cart fa fa-solid fa-cart-shopping"></i>
+						Add to Cart
+					</a>
+				</figure>
+				<figure class="product__item">
+					<img class="product__img" src="img/product6.webp" alt="product image">
+					<div class="product__description">
+						<figcaption class="product__heading">
+							<a class="product__heading" href="product.html">ELLERY X M'O CAPSULE</a>
+						</figcaption>
+						<p class="product__text">
+							Known for her sculptural takes on traditional tailoring,
+							Australian arbiter of cool Kym Ellery teams up with Moda Operandi.
+						</p>
+						<p class="product__price">$52.00</p>
+					</div>
+					<a href="#" class="product__add-link">
+						<i class="product__cart fa fa-solid fa-cart-shopping"></i>
+						Add to Cart
+					</a>
+				</figure>
+			</div>
+		</section>
+		<section class="subscribe center">
+			<figure class="subscribe__left">
+				<img class="subscribe__photo" src="img/photo_subscribe.webp" alt="photo__subscribe">
+				<figcaption class="subscribe__text">
+					&laquo;Vestibulum quis porttitor dui! Quisque viverra nunc&nbsp;mi,
+					<span class="subscribe__text_italic">a&nbsp;pulvinar purus condimentum</span>&raquo;
+				</figcaption>
+			</figure>
+			<div class="subscribe__right">
+				<h2 class="subscribe__title">
+					SUBSCRIBE <br><span class="subscribe__subtitle">FOR OUR NEWLETTER AND PROMOTION</span>
+				</h2>
+				<form class="subscribe__form" action="#">
+					<input class="subscribe__email" type="email" placeholder="Enter Your Email">
+					<a href="#" class="subscribe__form">
+						<p class="subscribe__button">Subscribe</p>
+					</a>
+				</form>
+			</div>
+		</section>
+		<footer class="footer center">
+			<p class="footer__rights">&copy; 2021 Brand All Rights Reserved.</p>
+			<div class="footer__socials">
+				<a href="#"> <i class="fa fa-brands fa-square-pinterest"></i> </a>
+				<a href="#"> <i class="fa fa-brands fa-square-twitter"></i> </a>
+			</div>
+		</footer>
+	</div>
+
+	<!-- swiper -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+		});
+	</script>
+</body>
+
+</html>
