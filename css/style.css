@@ -48,7 +48,16 @@ body {
   box-shadow: 0 0 44px 20px rgba(41, 154, 156, 0.2);
 }
 
-@media (min-width: 423px) and (max-width: 550px) {
+@media (min-width: 551px) and (max-width: 650px) {
+  .head {
+    font-size: 24px;
+  }
+  .link {
+    font-size: 12px;
+    padding: 0.8rem 1.8rem;
+  }
+}
+@media (min-width: 423px) and (max-width: 550.98px) {
   .head {
     font-size: 18px;
   }
