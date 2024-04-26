@@ -124,7 +124,7 @@
 body {
     /* цвет фона для всей web-страницы */
     background-color: #020A18;
-    animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.3s both;
+    animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1s both;
 }
 
 .top {
